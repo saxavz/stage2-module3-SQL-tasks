@@ -13,6 +13,7 @@ insert into STUDENT(name,birthday,groupnumber)
     select 'Lucas',     LOCALTIMESTAMP - INTERVAL '22' YEAR, 2 union all
     select 'Jacob',     LOCALTIMESTAMP - INTERVAL '40' YEAR, 3 union all
     select 'Logan',     LOCALTIMESTAMP - INTERVAL '41' YEAR, 3 union all
+    select 'Henry',     LOCALTIMESTAMP - INTERVAL '41' YEAR, 3 union all
     select 'Bibba',     LOCALTIMESTAMP - INTERVAL '10' YEAR, 4 union all
     select 'Bobba',     LOCALTIMESTAMP - INTERVAL '11' YEAR, 5
     ;
